@@ -1,0 +1,9 @@
+#!/bin/bash
+#multiplication  of two variables
+echo "enter the first number "
+read x
+echo "enter the second number "
+read y
+z=$(($x*$y))
+
+echo "the product od $x and $y is $z"
