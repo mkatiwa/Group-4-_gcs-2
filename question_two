@@ -1,0 +1,26 @@
+#!/bin/bash
+#I am invincible!!! when receiving a SIGTERM signal
+YE=$RANDOM
+ZE=$RANDOM
+
+echo "The first random number generated is $YE"
+
+BY=$(echo "sqrt($YE)" | bc)
+
+#echo "$BY"
+
+echo -n "The square root is "; echo "sqrt($YE)" | bc
+
+
+
+echo "The second random number generated is $ZE"
+
+echo -n "The square root is "; echo "sqrt($ZE)" | bc
+
+BZ=$(echo "sqrt($ZE)" | bc)
+
+#echo "$BZ"
+
+JE=$(($BY+$BZ))
+
+echo "The sum of their square roots is $JE"
