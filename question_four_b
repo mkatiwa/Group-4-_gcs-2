@@ -1,0 +1,4 @@
+#!/bin/bash
+while read line; do
+mkdir "$line"
+done < folder_names
