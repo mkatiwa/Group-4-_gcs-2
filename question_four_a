@@ -5,5 +5,5 @@ read x
 echo "enter the second number "
 read y
 z=$(($x*$y))
-
+#this is the product of two variables
 echo "the product od $x and $y is $z"
