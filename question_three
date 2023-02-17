@@ -4,3 +4,4 @@ echo "Enter the first number"
 read z
 echo -n "The number of words is"; echo "$z" | wc -w
 echo -n "The number of white spaces is"; echo "$z" | grep " " | wc -l
+#The product of the two variables will be accessed
