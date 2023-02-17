@@ -1,5 +1,5 @@
 #!/bin/bash
-# product of two varibales
+The product of two varibales
 echo "Enter the first number"
 read z
 echo -n "The number of words is"; echo "$z" | wc -w
