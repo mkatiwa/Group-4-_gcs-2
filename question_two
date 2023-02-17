@@ -1,5 +1,5 @@
 #!/bin/bash
-#I am invincible!!! when receiving a SIGTERM signal
+#I am invincible!!!! when receiving a SIGTERM signal
 YE=$RANDOM
 ZE=$RANDOM
 
