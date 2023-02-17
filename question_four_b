@@ -1,4 +1,6 @@
 #!/bin/bash
+# script that reads each line of the text file. Then creates a corresponding folder for each folder name
+# script of each folder
 while read line; do
 mkdir "$line"
 done < folder_names
