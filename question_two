@@ -1,4 +1,5 @@
 #!/bin/bash
+#This script generates two random numbers and the sum of their squre roots
 #I am invincible!!!! when receiving a SIGTERM signal
 YE=$RANDOM
 ZE=$RANDOM
